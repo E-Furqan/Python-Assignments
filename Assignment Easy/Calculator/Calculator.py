@@ -29,11 +29,14 @@ def Division(number1,number2):
 def DisplayResult(number1,number2,operator,result):
     print(F"{number1} {operator} {number2} = {result}")
     
-    
-if __name__=="__main__":
+
+def main():
     number1=float(input("Enter first number: "))
     operator=str(input("Enter the operator (+, -, *, /): "))
     number2=float(input("Enter second number: "))
 
     
     Calculator(number1,number2,operator)
+    
+if __name__=="__main__":
+    main()
